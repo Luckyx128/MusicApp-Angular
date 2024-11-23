@@ -1,3 +1,5 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { FooterNavComponent } from './footer-nav/footer-nav.component'
+export const routes: Routes = [
+  { path: 'footer', component: FooterNavComponent }
+  ]
