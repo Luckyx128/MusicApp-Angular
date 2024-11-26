@@ -1,0 +1,9 @@
+<h5>Escutadas recentemente</h5>
+<ul >
+  @for (mus of musicas; track mus) {
+    <app-card-player [title]="mus.nome" [quantidade]="mus.quantidade"/>
+  }
+</ul>
+<h5>Veja seu ano em musicas</h5>
+<br>
+<h5>Suas playlists</h5>

@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {FooterNavComponent} from './footer-nav/footer-nav.component';
 import {HeaderComponent} from './header/header.component';
-import {CardPlayerComponent} from './card-player/card-player.component';
+import {CardAreaComponent} from './card-area/card-area.component';
 
 @Component({
   selector: 'app-root',
-  imports: [FooterNavComponent,HeaderComponent,CardPlayerComponent],
+  imports: [FooterNavComponent,HeaderComponent,CardAreaComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
